@@ -22,7 +22,10 @@ while(cont < 1){
     d = +prompt(`${cont+4} - Você salvou ... ? : `);
     e = +prompt(`${cont+5} - Você salvou ... ? : `);
  
-    if ( a + b + c + d + e == 0 ) {
+
+
+
+    if  ( a + b + c + d + e == 0 ) {
      console.log("Você falha miseravelmente");
 
     } else if ( a + b + c + d + e == 1 ||  a + b + c + d + e == 2 ) {
@@ -33,10 +36,9 @@ while(cont < 1){
         console.log(" Depois de muito esforço você conquista seu objetivo, embora não de maneira perfeita");
     } else if (a + b + c + d + e >= 5) {
         console.log(" Você triunfa de maneira inquestionável e seus feitos serão lembrados por muitas gerações.");
-
+        cont++
    }
 
- cont++
 }
 
 
